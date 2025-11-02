@@ -1,3 +1,4 @@
+
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score, classification_report, confusion_matrix, precision_score, recall_score, f1_score, roc_curve, auc
 import sklearn
@@ -79,7 +80,7 @@ if __name__ == "__main__":
     print()
 
 
-    model_path = os.path.join(args.model_dir, "model.joblib")
+    model_path = "model.joblib"
     joblib.dump(model,model_path)
     print("Model persisted at " + model_path)
     print()
