@@ -80,10 +80,9 @@ if __name__ == "__main__":
     print()
 
 
-    model_path = "model.joblib"
-    joblib.dump(model,model_path)
+    model_path = os.path.join(args.model_dir, "model.joblib")
+    joblib.dump(model, model_path)
     print("Model persisted at " + model_path)
-    print()
 
 
     y_pred_test = model.predict(X_test)
