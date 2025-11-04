@@ -8,7 +8,7 @@ The goal is to build and deploy a **Random Forest classifier** that predicts the
 
 ## 🚀 Project Overview
 
-**Problem:** Predict the price range (0–3) of mobile phones using various features.  
+**Problem:** Predict the price range (0–3) of mobile phones using provided features.  
 **Algorithm:** Random Forest Classifier  
 **Cloud Platform:** AWS SageMaker  
 **Language:** Python  
